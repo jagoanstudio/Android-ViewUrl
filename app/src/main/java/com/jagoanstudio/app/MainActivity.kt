@@ -1,4 +1,4 @@
-package com.jagoanstudio.viewurl
+package com.jagoanstudio.app
 
 import android.content.res.Configuration
 import android.net.http.SslError

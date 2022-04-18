@@ -1,4 +1,4 @@
-package com.jagoanstudio.viewurl
+package com.jagoanstudio.app
 
 import android.content.Intent
 import android.os.Bundle
@@ -10,6 +10,8 @@ class InputActivity: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_input)
+
+        edittext_input_url.setText("https://")
 
         button_view_url.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
