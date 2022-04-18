@@ -1,3 +1,3 @@
 # Android-ViewUrl
 
-synthetic-kotlin
+- synthetic-kotlin
